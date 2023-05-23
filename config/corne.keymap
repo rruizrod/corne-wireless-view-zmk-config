@@ -34,6 +34,7 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |            |  N  |  M   |  ,  |  .  |  /  | ENT  |
 // |                  | GUI | LWR | SPC |            | CTRL| RSE  | ALT |                  |
 // -----------------------------------------------------------------------------------------
+			label = "Main";
                         bindings = <
    &kp TAB    &kp Q   &kp W     &kp E     &kp R     &kp T           &kp Y     &kp U     &kp I       &kp O     &kp P     &kp BSPC
    &kp ESC    &kp A   &kp S     &kp D     &kp F     &kp G           &kp H     &kp J     &kp K       &kp L     &kp SEMI  &kp SQT
@@ -48,6 +49,7 @@
 // | SHFT |     |     |     |     |     |             |  .  |  1  |  2  |  3  |  +  |  /   |
 // |                  | GUI |     | SPC |             | ENT |     |  0  |                  |
 // -----------------------------------------------------------------------------------------
+			label = "Numbers";
                         bindings = <
    &kp TAB    &none      &kp UP     &none       &none   &none         &kp CARET   &kp KP_N7    &kp KP_N8  &kp KP_N9  &kp KP_MULTIPLY   &kp BSPC
    &to 0      &kp LEFT   &kp DOWN   &kp RIGHT   &trans  &trans        &kp EQUAL   &kp KP_N4    &kp KP_N5  &kp KP_N6  &kp KP_MINUS      &none
@@ -63,6 +65,7 @@
 // | SHFT |     |     |     |     |     |             |  _  |  +  |     |     |     |      |
 // |                  | GUI |     | SPC |             | ENT |     | ALT |                  |
 // -----------------------------------------------------------------------------------------
+			label = "Symbols";
                         bindings = <
    &kp EXCL  &kp AT   &kp HASH  &kp DLLR  &kp PRCNT   &kp CARET       &kp AMPS    &kp KP_MULTIPLY   &kp LPAR  &kp RPAR  &kp MINUS   &kp EQUAL
    &kp GRAVE &trans   &trans    &kp LBKT  &kp RBKT    &trans          &kp MINUS   &kp EQUAL         &kp PLUS  &kp LBRC  &kp RBRC    &kp BSLH
@@ -78,6 +81,7 @@
 // |L_GUI |     |     |     |     | BR- |             | BR+ |     |     | PGDN| END | HOME |
 // |                  | GUI |     | SPC |             | ENT |     | ALT |                  |
 // -----------------------------------------------------------------------------------------
+			label = "Media";
                         bindings = <
    &tog SETTINGS  &kp F1   &kp F2    &kp F3    &kp F4      &kp F5             &kp F6            &kp F7    &kp F8    &kp F9       &kp F10   &kp DEL
    &kp GRAVE      &kp F11  &kp F12   &none     &kp C_MUTE  &kp C_VOL_DN       &kp C_VOL_UP      &none     &none     &kp PG_UP    &none     &kp INS
@@ -93,6 +97,7 @@
 // |      | EF- | SP- | SA- | HU- | BR- |             | BR+ | HU+ | SA+ | SP+ | EF+ |      |
 // |                  |     |     |     |             |     |     |     |                  |
 // -----------------------------------------------------------------------------------------
+			label = "Settings";
                         bindings = <
   &tog SETTINGS &none         &none         &none         &none         &none   &none  &none   &none   &none   &none   &none
   &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4        &none   &none   &none   &none   &none   &none
